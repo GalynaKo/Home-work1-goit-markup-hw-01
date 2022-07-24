@@ -73,6 +73,8 @@ header{
     display: flex;
     align-items: center;
     text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
    
 }
 
@@ -346,8 +348,9 @@ background: #FFFFFF;
     gap: 8px;
     justify-content: center;
    
-   
-    
+}
+.main-look>.container{
+    padding-bottom: 94px;
 }
 .main-look-btn{
     background: #F5F4FA;
@@ -378,10 +381,9 @@ background: #FFFFFF;
     gap:30px;
     margin-top: 50px;
     flex-wrap:wrap; 
-    margin-bottom: 94px;
 }
 .gallery-item{
-    width: calc ((100% - 60px) /3);    
+    width: calc ((100% - 60px)/3);    
 }
 .gallery-item-text{
   padding: 20px 24px;
@@ -395,8 +397,7 @@ background: #FFFFFF;
     line-height:2;
     color:var(--title-text-color);
     letter-spacing: 0.06em;
-    width: 322px;
-    height: 36px;
+   
 }
 .gallery-text{
     font-size: 16px;
@@ -404,9 +405,7 @@ background: #FFFFFF;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     margin-top: 4px;
-    margin-bottom: 0;
-    width: 322px;
-    height: 30px;
+ 
 
 }
 
